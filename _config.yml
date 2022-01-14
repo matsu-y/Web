@@ -1,5 +1,3 @@
-plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
 
 theme: jekyll-theme-midnight
 title : {{ page.title}}
