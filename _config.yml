@@ -6,10 +6,3 @@ theme: jekyll-theme-midnight
 title : {{ page.title}}
 description: {{ page.description }}
 
-show_downloads: [false]
-google_analytics: [Your Google Analytics tracking ID]
-
-github:
-  zip_url: http://example.com/download.zip
-  another_url: another value
-  
