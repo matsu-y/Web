@@ -3,3 +3,27 @@ description: Midnight is a theme for GitHub Pages.
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-midnight
+
+plugins:
+  - jekyll-paginate
+paginate: 5
+paginate_path: "/page:num/"
+
+plugins:
+  - jekyll-seo-tag
+
+plugins:
+  - jekyll-feed
+feed:
+  path: "/feed.xml"
+
+plugins:
+  - jekyll-archives
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layout: archive
+  permalinks:
+    archive: '/:year/:month/:day/:title/'
+
